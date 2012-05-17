@@ -13,6 +13,17 @@
 		823537BE15650EF400723378 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 823537BC15650EF400723378 /* InfoPlist.strings */; };
 		823537C015650EF400723378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537BF15650EF400723378 /* main.m */; };
 		823537C415650EF500723378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537C315650EF500723378 /* AppDelegate.m */; };
+		823537D215650F0500723378 /* HistoryViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823537CA15650F0500723378 /* HistoryViewController_iPhone.xib */; };
+		823537D315650F0500723378 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537CC15650F0500723378 /* HistoryViewController.m */; };
+		823537D415650F0500723378 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823537CD15650F0500723378 /* HistoryViewController.xib */; };
+		823537D515650F0500723378 /* WebGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537CF15650F0500723378 /* WebGLViewController.m */; };
+		823537D615650F0500723378 /* WebGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823537D015650F0500723378 /* WebGLViewController.xib */; };
+		823537D715650F0500723378 /* WebGLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823537D115650F0500723378 /* WebGLViewController_iPhone.xib */; };
+		823537DC15650F0F00723378 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 823537D815650F0F00723378 /* BackButton.png */; };
+		823537DD15650F0F00723378 /* ForwardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 823537D915650F0F00723378 /* ForwardButton.png */; };
+		823537E115650F2900723378 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823537E015650F2900723378 /* iAd.framework */; };
+		823537E315650F3000723378 /* WebGLViewer_iPadIcon_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 823537E215650F3000723378 /* WebGLViewer_iPadIcon_large.png */; };
+		823537E515650F3200723378 /* WebGLViewer_iPadIcon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 823537E415650F3200723378 /* WebGLViewer_iPadIcon_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,25 @@
 		823537B315650EF400723378 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		823537B515650EF400723378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		823537B715650EF400723378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		823537BB15650EF400723378 /* iOS-WebGL-Viewer-Info.plist */ = {isa = PBXFileReference; path = "iOS-WebGL-Viewer-Info.plist"; sourceTree = "<group>"; };
+		823537BB15650EF400723378 /* iOS-WebGL-Viewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-WebGL-Viewer-Info.plist"; sourceTree = "<group>"; };
 		823537BD15650EF400723378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		823537BF15650EF400723378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		823537C115650EF500723378 /* iOS-WebGL-Viewer-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-WebGL-Viewer-Prefix.pch"; sourceTree = "<group>"; };
-		823537C215650EF500723378 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		823537C115650EF500723378 /* iOS-WebGL-Viewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-WebGL-Viewer-Prefix.pch"; sourceTree = "<group>"; };
+		823537C215650EF500723378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		823537C315650EF500723378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		823537CA15650F0500723378 /* HistoryViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController_iPhone.xib; sourceTree = "<group>"; };
+		823537CB15650F0500723378 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		823537CC15650F0500723378 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		823537CD15650F0500723378 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		823537CE15650F0500723378 /* WebGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGLViewController.h; sourceTree = "<group>"; };
+		823537CF15650F0500723378 /* WebGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGLViewController.m; sourceTree = "<group>"; };
+		823537D015650F0500723378 /* WebGLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebGLViewController.xib; sourceTree = "<group>"; };
+		823537D115650F0500723378 /* WebGLViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebGLViewController_iPhone.xib; sourceTree = "<group>"; };
+		823537D815650F0F00723378 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		823537D915650F0F00723378 /* ForwardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForwardButton.png; sourceTree = "<group>"; };
+		823537E015650F2900723378 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		823537E215650F3000723378 /* WebGLViewer_iPadIcon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WebGLViewer_iPadIcon_large.png; path = ../WebGLViewer_iPadIcon_large.png; sourceTree = "<group>"; };
+		823537E415650F3200723378 /* WebGLViewer_iPadIcon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WebGLViewer_iPadIcon_small.png; path = ../WebGLViewer_iPadIcon_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823537E115650F2900723378 /* iAd.framework in Frameworks */,
 				823537B415650EF400723378 /* UIKit.framework in Frameworks */,
 				823537B615650EF400723378 /* Foundation.framework in Frameworks */,
 				823537B815650EF400723378 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +87,7 @@
 		823537B215650EF400723378 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				823537E015650F2900723378 /* iAd.framework */,
 				823537B315650EF400723378 /* UIKit.framework */,
 				823537B515650EF400723378 /* Foundation.framework */,
 				823537B715650EF400723378 /* CoreGraphics.framework */,
@@ -74,6 +100,14 @@
 			children = (
 				823537C215650EF500723378 /* AppDelegate.h */,
 				823537C315650EF500723378 /* AppDelegate.m */,
+				823537CB15650F0500723378 /* HistoryViewController.h */,
+				823537CC15650F0500723378 /* HistoryViewController.m */,
+				823537CA15650F0500723378 /* HistoryViewController_iPhone.xib */,
+				823537CD15650F0500723378 /* HistoryViewController.xib */,
+				823537CE15650F0500723378 /* WebGLViewController.h */,
+				823537CF15650F0500723378 /* WebGLViewController.m */,
+				823537D015650F0500723378 /* WebGLViewController.xib */,
+				823537D115650F0500723378 /* WebGLViewController_iPhone.xib */,
 				823537BA15650EF400723378 /* Supporting Files */,
 			);
 			path = "iOS-WebGL-Viewer";
@@ -82,6 +116,10 @@
 		823537BA15650EF400723378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				823537E415650F3200723378 /* WebGLViewer_iPadIcon_small.png */,
+				823537E215650F3000723378 /* WebGLViewer_iPadIcon_large.png */,
+				823537D815650F0F00723378 /* BackButton.png */,
+				823537D915650F0F00723378 /* ForwardButton.png */,
 				823537BB15650EF400723378 /* iOS-WebGL-Viewer-Info.plist */,
 				823537BC15650EF400723378 /* InfoPlist.strings */,
 				823537BF15650EF400723378 /* main.m */,
@@ -142,6 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				823537BE15650EF400723378 /* InfoPlist.strings in Resources */,
+				823537D215650F0500723378 /* HistoryViewController_iPhone.xib in Resources */,
+				823537D415650F0500723378 /* HistoryViewController.xib in Resources */,
+				823537D615650F0500723378 /* WebGLViewController.xib in Resources */,
+				823537D715650F0500723378 /* WebGLViewController_iPhone.xib in Resources */,
+				823537DC15650F0F00723378 /* BackButton.png in Resources */,
+				823537DD15650F0F00723378 /* ForwardButton.png in Resources */,
+				823537E315650F3000723378 /* WebGLViewer_iPadIcon_large.png in Resources */,
+				823537E515650F3200723378 /* WebGLViewer_iPadIcon_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +200,8 @@
 			files = (
 				823537C015650EF400723378 /* main.m in Sources */,
 				823537C415650EF500723378 /* AppDelegate.m in Sources */,
+				823537D315650F0500723378 /* HistoryViewController.m in Sources */,
+				823537D515650F0500723378 /* WebGLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
