@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823537B415650EF400723378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823537B315650EF400723378 /* UIKit.framework */; };
+		823537B615650EF400723378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823537B515650EF400723378 /* Foundation.framework */; };
+		823537B815650EF400723378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823537B715650EF400723378 /* CoreGraphics.framework */; };
+		823537BE15650EF400723378 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 823537BC15650EF400723378 /* InfoPlist.strings */; };
+		823537C015650EF400723378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537BF15650EF400723378 /* main.m */; };
+		823537C415650EF500723378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823537C315650EF500723378 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		823537AF15650EF400723378 /* iOS-WebGL-Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WebGL-Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823537B315650EF400723378 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		823537B515650EF400723378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		823537B715650EF400723378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		823537BB15650EF400723378 /* iOS-WebGL-Viewer-Info.plist */ = {isa = PBXFileReference; path = "iOS-WebGL-Viewer-Info.plist"; sourceTree = "<group>"; };
+		823537BD15650EF400723378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		823537BF15650EF400723378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		823537C115650EF500723378 /* iOS-WebGL-Viewer-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-WebGL-Viewer-Prefix.pch"; sourceTree = "<group>"; };
+		823537C215650EF500723378 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		823537C315650EF500723378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823537AC15650EF400723378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823537B415650EF400723378 /* UIKit.framework in Frameworks */,
+				823537B615650EF400723378 /* Foundation.framework in Frameworks */,
+				823537B815650EF400723378 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823537A415650EF400723378 = {
+			isa = PBXGroup;
+			children = (
+				823537B915650EF400723378 /* iOS-WebGL-Viewer */,
+				823537B215650EF400723378 /* Frameworks */,
+				823537B015650EF400723378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823537B015650EF400723378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823537AF15650EF400723378 /* iOS-WebGL-Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823537B215650EF400723378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				823537B315650EF400723378 /* UIKit.framework */,
+				823537B515650EF400723378 /* Foundation.framework */,
+				823537B715650EF400723378 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823537B915650EF400723378 /* iOS-WebGL-Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				823537C215650EF500723378 /* AppDelegate.h */,
+				823537C315650EF500723378 /* AppDelegate.m */,
+				823537BA15650EF400723378 /* Supporting Files */,
+			);
+			path = "iOS-WebGL-Viewer";
+			sourceTree = "<group>";
+		};
+		823537BA15650EF400723378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				823537BB15650EF400723378 /* iOS-WebGL-Viewer-Info.plist */,
+				823537BC15650EF400723378 /* InfoPlist.strings */,
+				823537BF15650EF400723378 /* main.m */,
+				823537C115650EF500723378 /* iOS-WebGL-Viewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823537AE15650EF400723378 /* iOS-WebGL-Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823537C715650EF500723378 /* Build configuration list for PBXNativeTarget "iOS-WebGL-Viewer" */;
+			buildPhases = (
+				823537AB15650EF400723378 /* Sources */,
+				823537AC15650EF400723378 /* Frameworks */,
+				823537AD15650EF400723378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-WebGL-Viewer";
+			productName = "iOS-WebGL-Viewer";
+			productReference = 823537AF15650EF400723378 /* iOS-WebGL-Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823537A615650EF400723378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Troy Ferrell";
+			};
+			buildConfigurationList = 823537A915650EF400723378 /* Build configuration list for PBXProject "iOS-WebGL-Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 823537A415650EF400723378;
+			productRefGroup = 823537B015650EF400723378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823537AE15650EF400723378 /* iOS-WebGL-Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823537AD15650EF400723378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823537BE15650EF400723378 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823537AB15650EF400723378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823537C015650EF400723378 /* main.m in Sources */,
+				823537C415650EF500723378 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		823537BC15650EF400723378 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823537BD15650EF400723378 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823537C515650EF500723378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823537C615650EF500723378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823537C815650EF500723378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WebGL-Viewer/iOS-WebGL-Viewer-Prefix.pch";
+				INFOPLIST_FILE = "iOS-WebGL-Viewer/iOS-WebGL-Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		823537C915650EF500723378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WebGL-Viewer/iOS-WebGL-Viewer-Prefix.pch";
+				INFOPLIST_FILE = "iOS-WebGL-Viewer/iOS-WebGL-Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823537A915650EF400723378 /* Build configuration list for PBXProject "iOS-WebGL-Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823537C515650EF500723378 /* Debug */,
+				823537C615650EF500723378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823537C715650EF500723378 /* Build configuration list for PBXNativeTarget "iOS-WebGL-Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823537C815650EF500723378 /* Debug */,
+				823537C915650EF500723378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823537A615650EF400723378 /* Project object */;
+}
